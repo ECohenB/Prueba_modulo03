@@ -1,0 +1,16 @@
+.navbar {
+    box-shadow: 0 4px 6px $info(22, 216, 223, 0.1); 
+  }
+  
+  .navbar-brand img {
+    margin-right: 8px; 
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    margin-left: 1rem; 
+    &:hover {
+      color: $info; 
+    }
+  }
+  

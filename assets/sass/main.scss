@@ -1,0 +1,16 @@
+@import 'abstracts/variables';
+$white: $color-white;               // Color blanco
+$primary: $color-shiny-shamrock;    // El color verde
+$info: $color-blue-de-france;       // Color azul
+$dark: $color-black;                // Color oscuro
+$light: $color-isabelline;          // Color claro
+$turquesa: $color-turquoise; // Color turquesa
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import 'components/navbar';
+@import 'components/testimonials';
+@import 'base/globals';
+@import 'pages/quienes-somos';
+@import 'pages/destacados';
+@import 'components/cards';
+@import 'components/carousel';
+

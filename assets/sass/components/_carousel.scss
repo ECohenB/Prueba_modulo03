@@ -1,0 +1,15 @@
+#carouselExampleIndicators {
+    height: 500px; /* Alto por defecto para dispositivos grandes */
+  }
+  
+  #carouselExampleIndicators .carousel-item img {
+    object-fit: cover; /* Asegura que las imágenes se ajusten sin deformarse */
+    height: 100%;
+  }
+  
+  @media (max-width: 767px) {
+    #carouselExampleIndicators {
+      height: 300px; /* Alto para dispositivos con pantallas pequeñas */
+    }
+  }
+  

@@ -1,0 +1,47 @@
+.testimonials {
+    &__title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+  
+    &__container {
+      .row {
+        justify-content: center;
+      }
+    }
+  
+    &__item {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+  
+    &__text {
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+  
+    &__author {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  
+    &__photo {
+      width: 80px; 
+      height: 80px; 
+      border-radius: 50%; 
+      object-fit: cover; 
+      margin-bottom: 0.5rem;
+    }
+  
+    &__name {
+      font-weight: bold;
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+  
